@@ -15,6 +15,7 @@
 - 同じメモリ量（平均 4 bit）で、一律 4 bit より高い精度を実現
 - 一律 4 bit による perplexity の悪化の 72〜87% を解消（130M〜1.3B の 4 サイズ）
 - bit の配分は事前に 1 回決めるだけでよく、生成中の見直しは不要
+
 資料：[研究概要スライド（PDF）](mitsuishi_research_overview_20261112.pdf)
  
 ---
@@ -29,4 +30,5 @@
 - HotpotQA・MuSiQue で評価（検索：BM25、LLM：GPT-4o）
 - 必要な情報の一部が取れている場合でもループが発生することを明らかにした
 - FIT2026（第25回情報科学技術フォーラム）で発表し、[FIT奨励賞](https://www.ipsj.or.jp/award/fit-syorei.html)を受賞
+
 資料：[予稿（PDF）](m_mitsuishi_FIT_2026.pdf)
